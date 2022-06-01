@@ -1,0 +1,15 @@
+.w-full{
+    width: 100%;
+}
+.h-full{
+    height: 100%;
+}
+.text-decorate{
+    text-decoration: none;
+}
+.outline{
+    outline: none;
+}
+.flex{
+    display: flex;
+}
