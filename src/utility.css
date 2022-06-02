@@ -21,7 +21,8 @@
     grid-template-columns: repeat(2,2fr);
 }
 .grid-famous{
-  
+    display: flex;
+    margin: 0 40px;
 }
 .m1{
     margin: 15px;

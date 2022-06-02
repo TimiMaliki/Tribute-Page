@@ -88,7 +88,7 @@ nav a:hover{
       background: #000;
   }
   .famous-works{
-      background: #0f0f0f;
+      background: #000;
       margin-top: 0px;
   }
   .fmt{
@@ -106,13 +106,14 @@ nav a:hover{
       border-bottom: 1px solid #fff;
   }
   .famous-grid{
-     
-   
-    border: 2px solid red;
+      border: 2px solid red;
+      height: 70vh;
   }
-  .famous-grid{
-    border: 2px solid blue;
-    display: flex;
+  .famous-grid img{
+    padding: 0px;
+  }
+  .famous-text p{
+      display: block;
   }
   
   
