@@ -13,3 +13,25 @@
 .flex{
     display: flex;
 }
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+.m1{
+    margin: 15px;
+}
+.m2{
+ margin: 35px 50px;
+}
+.m3{
+
+}
+.m4{
+
+}
+.m5{
+
+}
+.tribute-text-color{
+    color: #ddd;
+}
