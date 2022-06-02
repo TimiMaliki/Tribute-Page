@@ -17,6 +17,9 @@
     display: grid;
     grid-template-columns: repeat(2,2fr);
 }
+.grid-gap{
+    margin-left: 50px;
+}
 .m1{
     margin: 15px;
 }
@@ -24,7 +27,7 @@
  margin: 35px 50px;
 }
 .m3{
-
+    margin: 75px 130px;
 }
 .m4{
 

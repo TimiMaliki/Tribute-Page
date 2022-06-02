@@ -72,3 +72,16 @@ nav a:hover{
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 55%, rgba(214,142,40,1) 92%);
   }
+  .story{
+      background: #ffff;
+      height: 90vh;
+      font-family: 'Source Code Pro', monospace;
+      font-size: 14px;
+  }
+  .img-circ img{
+      border: 7px solid #ddd;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: #000;
+  }
