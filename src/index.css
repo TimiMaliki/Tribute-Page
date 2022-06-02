@@ -13,7 +13,7 @@ nav{
     align-items: center;
     text-align: center;
     height: 20vh;
-    background: #000;
+    background: #16161d;
 }
 nav ul{
     justify-content: space-around;
@@ -24,7 +24,7 @@ nav li{
     font-family: 'Source Code Pro', monospace;
 }
 nav a{
-    color: #fff;
+    color: #ddd;
     transition: all ease 0.5s;
     padding: 5px;
 }
@@ -35,10 +35,10 @@ nav a:hover{
     padding: 5px;
 }
 .tribute{
-    background: #000;
+    background: #16161d;
 }
 .tribute-img img{
-    border-radius: 9px;
+    border-radius: 4px;
     background: #000;
 }
 .tribute-text{
@@ -69,12 +69,15 @@ nav a:hover{
       margin: 26px 10px;
   }
   .circle:hover{
+      transition: 05s;
+      transform: translateY(-20px);
+      text-align: center;
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 55%, rgba(214,142,40,1) 92%);
   }
-  .story{
-      background: #ffff;
-      height: 90vh;
+  section .story{
+      background: #f5f5f5;
+      height: 100vh;
       font-family: 'Source Code Pro', monospace;
       font-size: 14px;
   }
