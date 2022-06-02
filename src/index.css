@@ -13,7 +13,7 @@ nav{
     align-items: center;
     text-align: center;
     height: 20vh;
-    background: #16161d;
+    background: #0f0f0f;
 }
 nav ul{
     justify-content: space-around;
@@ -35,7 +35,7 @@ nav a:hover{
     padding: 5px;
 }
 .tribute{
-    background: #16161d;
+    background: #0f0f0f;
 }
 .tribute-img img{
     border-radius: 4px;
@@ -77,7 +77,6 @@ nav a:hover{
   }
   section .story{
       background: #f5f5f5;
-      height: 100vh;
       font-family: 'Source Code Pro', monospace;
       font-size: 14px;
   }
@@ -88,3 +87,32 @@ nav a:hover{
       border-radius: 50%;
       background: #000;
   }
+  .famous-works{
+      background: #0f0f0f;
+      margin-top: 0px;
+  }
+  .fmt{
+      font-family: 'Source Code Pro', monospace;
+      color: #fff;
+      font-size: 16px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      text-align: center;
+      border-bottom: 25% solid #fff;
+      transform: translateY(40px);
+  }
+  .grid-works{
+      border-bottom: 1px solid #fff;
+  }
+  .famous-grid{
+     
+   
+    border: 2px solid red;
+  }
+  .famous-grid{
+    border: 2px solid blue;
+    display: flex;
+  }
+  
+  

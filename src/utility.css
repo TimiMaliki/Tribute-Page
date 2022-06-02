@@ -4,6 +4,9 @@
 .h-full{
     height: 100%;
 }
+.h-ful{
+    height: 120%;
+}
 .text-decorate{
     text-decoration: none;
 }
@@ -17,8 +20,8 @@
     display: grid;
     grid-template-columns: repeat(2,2fr);
 }
-.grid-gap{
-   
+.grid-famous{
+  
 }
 .m1{
     margin: 15px;
@@ -30,10 +33,10 @@
     margin: 75px 130px;
 }
 .m4{
-
+    margin: 100px;
 }
 .m5{
-
+    margin: -10px;
 }
 .tribute-text-color{
     color: #ddd;
