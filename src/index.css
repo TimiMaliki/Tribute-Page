@@ -39,7 +39,7 @@ nav a:hover{
 }
 .tribute-img img{
     border-radius: 4px;
-    background: #000;
+    background: #0f0f0f;
 }
 .tribute-text{
     color: #fff;
@@ -104,12 +104,39 @@ nav a:hover{
   .grid-works{
       border-bottom: 1px solid #fff;
   }
+  .fam{
+      font-family: 'Source Code Pro', monospace;
+      color: #000;
+      font-size: 16px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      text-align: center;
+      border-bottom: 25% solid #fff;
+      transform: translateY(40px);
+  }
+  .fam-works{
+      border-bottom: 1px solid #000;
+  }
   .famous-work-grid,.famous-work-text{
     transform: translateY(-80px);
   }
   .famous-work-text{
      color: #fff;
      margin: 7px auto;
+     font-family: 'Source Code Pro', monospace;
+  }
+  .his-family{
+       border: 2px solid red;
+       background: #fff;
+  }
+  .fam-pic{
+      display: grid;
+      margin: 0 140px;
+      transform: translateY(-80px);
+  }
+  .fam-pic img{
+      border-radius: 50%;
   }
   
   
