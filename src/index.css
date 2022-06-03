@@ -88,8 +88,7 @@ nav a:hover{
       background: #000;
   }
   .famous-works{
-      background: #000;
-      margin-top: 0px;
+      background: #100c08;
   }
   .fmt{
       font-family: 'Source Code Pro', monospace;
@@ -105,9 +104,12 @@ nav a:hover{
   .grid-works{
       border-bottom: 1px solid #fff;
   }
-  .famous-grid{
-      border: 2px solid red;
-      height: 70vh;
+  .famous-work-grid,.famous-work-text{
+    transform: translateY(-80px);
+  }
+  .famous-work-text{
+     color: #fff;
+     margin: 7px auto;
   }
   
   
