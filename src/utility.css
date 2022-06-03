@@ -20,9 +20,13 @@
     display: grid;
     grid-template-columns: repeat(2,2fr);
 }
-.grid-famous{
-    display: flex;
-    margin: 0 40px;
+.f-grid{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    
+}
+.famous-work-grid img{
+    justify-content: space-around;
 }
 .m1{
     margin: 15px;
