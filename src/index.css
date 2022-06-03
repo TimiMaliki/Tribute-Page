@@ -127,7 +127,6 @@ nav a:hover{
      font-family: 'Source Code Pro', monospace;
   }
   .his-family{
-       border: 2px solid red;
        background: #fff;
   }
   .fam-pic{
@@ -138,6 +137,41 @@ nav a:hover{
   .fam-pic img{
       border-radius: 50%;
   }
+  .fam-text{
+    transform: translateY(-80px);
+  }
+  .txt1,.txt2,.txt3{
+     margin: 15px 30px;
+     transform: translateX(-190px);
+  }
+  .social-media{
+      background: #0f0f0f;
+  }
+  h2.soc{
+    font-family: 'Source Code Pro', monospace;
+    color:#fff;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    transform: translateY(40px);
+    outline: none;
+    border-bottom: none;
+    text-decoration: none;
+}
+.soc{
+    border-bottom: 1px solid #fff;
+}
+  .card-one, .card-two{
+    width: 250px;
+    height: 350px;
+    margin: 30px 120px;
+    background: #fff;
+    border-radius: 17px;
+    padding: 3px;
+  }
+  
   
   
   
