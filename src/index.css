@@ -216,15 +216,31 @@ nav a:hover{
   }
   .donate{
       background-image: linear-gradient(
-        rgba(0, 0, 0, 0.9), 
-        rgba(0, 0, 0, 0.9)
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
       ),  url('../pic/donate.jpg')
 ;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
   }
-  
+  .donate-card{
+    width: 250px;
+    height: 330px;
+    margin:0px 60px;
+    background:rgba(225, 255, 255, 0.2);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    border: transparent;
+    border-radius: 7px;
+    padding: 3px;
+    transform: translateY(220px);
+  }
+  .donation-text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
   
   
