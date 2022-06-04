@@ -305,6 +305,6 @@ i .card-one {
     cursor: pointer;
    transform: translateX(60px);
 }
-.Help a{
-    transform: translateY(300px);
+.Help p{
+    transform: translateY(-30px);
 }
