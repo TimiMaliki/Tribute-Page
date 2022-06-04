@@ -194,6 +194,11 @@ nav a:hover{
   .fa-instagram{
       font-size: 35px;
   }
+  .soc-txt{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   
 
   
