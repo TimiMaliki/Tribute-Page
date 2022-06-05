@@ -309,10 +309,8 @@ i .card-one {
     transform: translateY(-30px);
 }
 .About-us{
-    border: 2px solid red;
-}
-.about{
-    border: 2px solid blue;
+    background: #fff;
+   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
 }
 .about h2{
     font-family: 'Source Code Pro', monospace;

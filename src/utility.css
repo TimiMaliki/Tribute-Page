@@ -26,6 +26,9 @@
     grid-gap: 1.5rem;
     margin: 0px 20px;
 }
+.grid-gap{
+    grid-gap: 7rem;
+}
 .famous-work,img{
   border-radius: 14px;
   padding: 9px;
