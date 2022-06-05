@@ -308,3 +308,13 @@ i .card-one {
 .Help p{
     transform: translateY(-30px);
 }
+.About-us{
+    border: 2px solid red;
+}
+.about{
+    border: 2px solid blue;
+}
+.about h2{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+}
