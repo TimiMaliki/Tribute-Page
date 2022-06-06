@@ -13,6 +13,9 @@
 .outline{
     outline: none;
 }
+.list-style{
+    list-style: none;
+}
 .flex{
     display: flex;
 }
@@ -54,6 +57,9 @@
 }
 .margin-top{
     margin-top: 60px;
+}
+.margin-top-negative{
+    margin-top: -260px;
 }
 .tribute-text-color{
     color: #ddd;
