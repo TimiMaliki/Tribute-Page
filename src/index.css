@@ -316,3 +316,41 @@ i .card-one {
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
 }
+.contact-us{
+   background:#000;
+}
+.contact h1{
+    color:#fff;
+    font-family: 'Source Code Pro', monospace;
+}
+form h2{
+    color: #fff;
+    text-align: left;
+}
+input{
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+textarea{
+    width: 350px;
+    height: 100px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button{
+    width: 100px;
+    background: #fff;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover{
+    background: blue;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}

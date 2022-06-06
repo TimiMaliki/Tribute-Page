@@ -49,7 +49,11 @@
     margin: -10px;
 }
 .m6{
-    margin: 3px;
+    margin: 4px;
+    transform: translateX(38px);
+}
+.margin-top{
+    margin-top: 60px;
 }
 .tribute-text-color{
     color: #ddd;
