@@ -1,18 +1,13 @@
-@-o-viewport {
-    width: 100%;
-}
-
 @-ms-viewport {
     width: 100%;
 }
-
 @viewport {
     width: 100%;
 }
-
 html {
     overflow-y: auto;
 }
+
 @media (max-width:1700px) {
     .tribute-img img {
         width: 760px;
@@ -34,7 +29,7 @@ html {
         width: 350px;
         height: 200px;
     }
-     
+
     .txt1,
     .txt2,
     .txt3 {
@@ -46,12 +41,9 @@ html {
         transform: translateX(270px);
         margin-top: -65px;
     }
-    .card-container {
-        margin: 30px 160px;
-    }
     .card-one,
     .card-two {
-        margin: 30px 160px;
+        margin: 30px 180px;
     }
     .social-media {
         width: 100%;
@@ -61,6 +53,10 @@ html {
         width: 100%;
         height: 100vh;
     }
+    .donate-card {
+        width: 350px;
+        height: 430px;
+    }
     .About-us {
         width: 100%;
         height: 50vh;
@@ -68,26 +64,24 @@ html {
 }
 @media (max-width:1500px) {
     body {
-        overflow-x: hidden;
-        background: #000;
+        background: #fff;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        width: 100%;
+        height: 100%;
     }
-
     header {
         width: 100%;
         background: #000;
         outline: none;
     }
-
     nav {
         padding: 30px;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-
     nav a {
         font-size: 25px;
         font-family: 'Source Code Pro', monospace;
@@ -96,69 +90,56 @@ html {
         text-align: center;
         gap: 8rem;
     }
-
     .tribute {
         background: #0f0f0f;
         width: 100%;
         height: 100%;
         border: none;
     }
-
     .tribute-img img {
         width: 660px;
         height: 560px;
     }
-
     .tribute-text {
         font-size: 19px;
     }
-
     .tribute-text h2 {
         font-size: 35px;
         font-family: 'Source Code Pro', monospace;
     }
-
     .tribute-text p {
         font-family: 'Source Code Pro', monospace;
         font-size: 19px;
     }
-
     .story p {
         display: flex;
         font-family: 'Source Code Pro', monospace;
         font-size: 19px;
     }
-
     .fmt {
         font-size: 25px;
     }
-
     .famous-work-text p {
         font-size: 17px;
     }
-
     .img-circ img {
         width: 400px;
         height: 400px;
         border-radius: 50%;
     }
-
     .circle {
         width: 70px;
         height: 70px;
         margin: -14px 60px;
         cursor: pointer;
         transform: translateX(200px);
-
     }
-
     .circle p {
         visibility: visible;
         z-index: 100;
         font-size: 7px;
         font-weight: bolder;
     }
-
     .circle:hover {
         transition: 05s;
         transform: translateY(-20px);
@@ -166,47 +147,39 @@ html {
         background: rgb(131, 58, 180);
         background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 55%, rgba(214, 142, 40, 1) 92%);
     }
-
     .famous-works {
         background: #100c08;
         width: 100%;
         height: 70%;
     }
-
     .famous-works img {
         width: 300px;
         height: 200px;
         align-self: center;
         justify-content: center;
     }
-
     .his-family {
         background: #fff;
         width: 100%;
         height: 70%;
     }
-
     .fam {
         font-size: 25px;
     }
-
     .fam-pic img {
         width: 150px;
         height: 150px;
         border-radius: 50%;
     }
-
     .fam-pic {
         display: grid;
         margin: 0 340px;
         transform: translateY(-80px);
     }
-
     .fam-text {
         transform: translateY(-80px);
         font-size: 19px;
     }
-
     .txt1,
     .txt2,
     .txt3 {
@@ -214,115 +187,98 @@ html {
         transform: translateX(-190px);
         padding: 25px;
     }
-
     .social-media {
         background: #0f0f0f;
         width: 100%;
         height: 100%;
     }
-
     h2.soc {
         font-size: 25px;
     }
-
     .icon-soc p {
         font-size: 20px;
     }
-
     .card-one,
     .card-two {
         width: 350px;
         height: 500px;
         margin: 30px 160px;
     }
-
     i .card-one,
     .card-two {
         font-size: 70px;
     }
-
     .fa-instagram {
         font-size: 75px;
     }
-
     .soc-txt p {
         margin: 9px 0;
         font-size: 19px;
         padding: 25px;
     }
-
     .visit {
         width: 100;
         height: 50px;
     }
-
     .visit p {
         transform: translateY(-30px);
     }
-
     .donate {
         width: 100%;
-        height: 100vh;
+        height: 120vh;
+        
     }
-
     .donate-card {
         width: 350px;
         height: 430px;
     }
-
     .donation-text h2 {
         font-size: 28px;
     }
-
     .donation-text p {
         font-size: 18px;
         margin: 30px 10px;
     }
-
     .About-us {
         width: 100%;
-        height: 60%;
+        height: 70%;
     }
-
     .about h2 {
         font-family: 'Source Code Pro', monospace;
         font-size: 25px;
     }
-
     .about-txt p {
         font-family: 'Source Code Pro', monospace;
         font-size: 17px;
     }
-
     .contact-us {
         width: 100%;
         height: 60%;
     }
 }
-
 @media (max-width:1300px) {
     .circle {
         transform: translateY(-20px);
     }
-
     .famous-works img {
         width: 200px;
         height: 200px;
         align-self: center;
         justify-content: center;
     }
+    .donate {
+        width: 100%;
+        height: 100vh;
+    }
 }
-
 @media (max-width:1200px) {
     .tribute-text {
         margin-top: -10px;
     }
-
     .story p {
         font-size: 19px;
         width: 300px;
     }
-
     .story p {
         display: flex;
         font-family: 'Source Code Pro', monospace;
@@ -332,11 +288,9 @@ html {
      .img-circ img {
        margin: 0px 10px;
     }
-
     .fam-pic {
         margin: 0 140px;
     }
-
     .fam-text {
         transform: translateX(-80px);
         font-size: 19px;
@@ -350,6 +304,10 @@ html {
     .card-one,
     .card-two { 
         margin: 30px 90px;
+    }
+    .donate {
+        width: 100%;
+        height: 100vh;
     }
 }
 @media (max-width:1180px){
@@ -377,7 +335,15 @@ html {
         transform: translateY(49px);
     }
 }
-@media (max-width:980px){
+@media (max-width:1080px){
+    body {
+        overflow-x: hidden;
+        background: #fff;
+        box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .tribute-img img {
         width: 400px;
         height: 560px;
@@ -399,5 +365,36 @@ html {
      .card-two { 
          margin: 30px 60px;
      }
-
+     .social-media {
+        background: #0f0f0f;
+        width: 100%;
+        height: 100%;
+    }
+     .donate {
+        width: 100%;
+        height: 100vh;
+    }
+    .Help{
+        transform: translateY(-30px);
+        width: 60px;
+        height: 35px;
+        margin: 17px 40px;
+    }
+    .donate-card {
+        width: 250px;
+        height: 330px;
+       transform: translateY(30px);
+    }
+    .donation-text h2 {
+        font-size: 28px;
+    }
+    .donation-text p {
+        font-size: 18px;
+        margin: 30px 0px;
+    }
+   
+     .contact-us {
+        width: 100%;
+        height: 60%;
+    }
 }
