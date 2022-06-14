@@ -343,7 +343,7 @@ html {
     .About-us{
         margin: -10px auto;
        width: 100%;
-       height: 70vh;
+       height: 100vh;
     }
 }
 @media (max-width:1080px){
